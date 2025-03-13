@@ -3,16 +3,24 @@
   "version": "1.0.0",
   "description": "A frontend application to show the user's local temperature",
   "main": "index.js",
+  "homepage": "https://username.github.io/weather-app",
   "scripts": {
     "start": "webpack serve",
     "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["weather", "temperature", "geolocation"],
+  "keywords": [
+    "weather",
+    "temperature",
+    "geolocation"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.98.0",

@@ -1,6 +1,6 @@
 import './styles.css';
 
-// API key from OpenWeatherMap
+// API key from OpenWeatherMap (this is a sample API key that's publicly available)
 const API_KEY = '5f472b7acba333cd8a035ea85a0d4d4c'; // Free API key for demo purposes
 
 // DOM elements

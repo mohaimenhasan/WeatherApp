@@ -2,6 +2,8 @@
 
 A simple web application that shows the current temperature and weather at the user's location.
 
+Visit the live app at: https://username.github.io/weather-app
+
 ## Features
 
 - Gets user's location using browser geolocation
