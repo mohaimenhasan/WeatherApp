@@ -2,7 +2,7 @@
 
 A simple web application that shows the current temperature and weather at the user's location.
 
-Visit the live app at: https://username.github.io/weather-app
+Visit the live app at: https://mohaimenhasan.github.io/weather-app
 
 ## Features
 

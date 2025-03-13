@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A frontend application to show the user's local temperature",
   "main": "index.js",
-  "homepage": "https://username.github.io/weather-app",
+  "homepage": "https://mohaimenhasan.github.io/weather-app",
   "scripts": {
     "start": "webpack serve",
     "build": "webpack",
