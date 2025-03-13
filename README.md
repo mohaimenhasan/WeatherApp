@@ -1,4 +1,4 @@
-# Weather App
+# Mohaimens Weather App
 
 A simple web application that shows the current temperature and weather at the user's location.
 
