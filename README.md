@@ -7,10 +7,14 @@ Visit the live app at: https://mohaimenhasan.github.io/weather-app
 ## Features
 
 - Gets user's location using browser geolocation
+- Search for weather by city name
 - Fetches real-time weather data from OpenWeatherMap API
 - Displays current temperature, weather description, and icon
-- Shows "feels like" temperature
-- Clean, responsive design
+- Shows "feels like" temperature, wind speed, humidity, and pressure
+- 5-day weather forecast
+- Interactive temperature trend chart
+- Weather conditions visualization (humidity, wind speed, cloudiness)
+- Clean, responsive design with modern UI
 
 ## Installation
 

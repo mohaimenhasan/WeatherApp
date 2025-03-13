@@ -4,15 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <div class="container">
-    <h1>Local Weather</h1>
-    <div class="weather-card">
-      <div id="location">Locating...</div>
-      <div id="temperature">Loading temperature...</div>
-      <div id="description"></div>
-      <div id="icon"></div>
+  <div class="app-container">
+    <div class="sidebar">
+      <div class="logo">
+        <i class="fas fa-cloud-sun"></i>
+        <h2>Weather App</h2>
+      </div>
+      <div class="search-box">
+        <input type="text" id="city-search" placeholder="Search for a city...">
+        <button id="search-btn"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="location-btn">
+        <button id="get-location"><i class="fas fa-location-arrow"></i> Current Location</button>
+      </div>
+    </div>
+    
+    <div class="main-content">
+      <div class="current-weather">
+        <div class="weather-header">
+          <div id="location">Locating...</div>
+          <div id="date"></div>
+        </div>
+        <div class="weather-info">
+          <div class="temp-container">
+            <div id="temperature">Loading temperature...</div>
+            <div id="feels-like"></div>
+          </div>
+          <div class="weather-details">
+            <div id="icon"></div>
+            <div id="description"></div>
+          </div>
+        </div>
+        <div class="weather-stats">
+          <div class="stat">
+            <i class="fas fa-wind"></i>
+            <span id="wind">0 km/h</span>
+          </div>
+          <div class="stat">
+            <i class="fas fa-tint"></i>
+            <span id="humidity">0%</span>
+          </div>
+          <div class="stat">
+            <i class="fas fa-compress-arrows-alt"></i>
+            <span id="pressure">0 hPa</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="forecast-section">
+        <h3>5-Day Forecast</h3>
+        <div class="forecast-container" id="forecast"></div>
+      </div>
+      
+      <div class="charts-section">
+        <div class="chart-container">
+          <h3>Temperature Trend</h3>
+          <canvas id="temp-chart"></canvas>
+        </div>
+        <div class="chart-container">
+          <h3>Weather Conditions</h3>
+          <canvas id="conditions-chart"></canvas>
+        </div>
+      </div>
     </div>
   </div>
 </body>
