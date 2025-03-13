@@ -28,6 +28,10 @@ Visit the live app at: https://mohaimenhasan.github.io/weather-app
    npm start
    ```
 
+## Deployment
+
+The app automatically deploys to GitHub Pages on every push to the main branch using GitHub Actions workflow.
+
 ## How It Works
 
 The application uses the browser's Geolocation API to get the user's coordinates, then makes a request to the OpenWeatherMap API to retrieve the current weather data for that location. The data is then displayed in a clean, user-friendly interface.
