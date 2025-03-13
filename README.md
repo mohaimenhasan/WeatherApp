@@ -1,6 +1,6 @@
 # Mohaimens Weather App
 
-A simple web application that shows the current temperature and weather at the user's location.
+A simple web application that shows the current temperature and weather at the user's location. Because all the other website are not enough
 
 Visit the live app at: https://mohaimenhasan.github.io/weather-app
 
